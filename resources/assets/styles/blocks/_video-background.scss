@@ -1,0 +1,31 @@
+.video-background {
+    z-index: 2;
+    overflow: hidden;
+
+    .content {
+      width: 100%;
+      height: 100%;
+    }
+
+    video {
+      position: relative;
+      z-index: -1;
+      left: 50%;
+      transform: translateX(-50%);
+      width: auto;
+      height: 115vh;
+      pointer-events: none;
+    }
+
+    .ratio {
+      height: 100%;
+      z-index: -1;
+      > * {
+        top: 50%;
+        left: 50%;
+        width: 160%;
+        height: 100vw;
+        transform: translate(-50%,-50%);
+      }
+    }
+}

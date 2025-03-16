@@ -1,0 +1,50 @@
+ @font-face {
+  font-family: 'Basel Grotesk';
+  src: url('Basel-Grotesk-Regular.eot');
+  src: url('Basel-Grotesk-Regular.eot?#iefix') format('embedded-opentype'),
+       url('Basel-Grotesk-Regular.woff2') format('woff2'),
+       url('Basel-Grotesk-Regular.woff') format('woff');
+  font-weight: 430;
+  font-style: normal;
+}
+
+ @font-face {
+  font-family: 'Basel Grotesk';
+  src: url('Basel-Grotesk-Bold.eot');
+  src: url('Basel-Grotesk-Bold.eot?#iefix') format('embedded-opentype'),
+       url('Basel-Grotesk-Bold.woff2') format('woff2'),
+       url('Basel-Grotesk-Bold.woff') format('woff');
+  font-weight: 635;
+  font-style: normal;
+}
+
+ @font-face {
+  font-family: 'Basel Grotesk';
+  src: url('Basel-Grotesk-Italic.eot');
+  src: url('Basel-Grotesk-Italic.eot?#iefix') format('embedded-opentype'),
+       url('Basel-Grotesk-Italic.woff2') format('woff2'),
+       url('Basel-Grotesk-Italic.woff') format('woff');
+  font-weight: 430;
+  font-style: italic;
+}
+
+
+ @font-face {
+  font-family: 'Gustavo Regular';
+  src: url('Gustavo-Regular.eot');
+  src: url('Gustavo-Regular.eot?#iefix') format('embedded-opentype'),
+       url('Gustavo-Regular.woff2') format('woff2'),
+       url('Gustavo-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+ @font-face {
+  font-family: 'Gustavo Medium';
+  src: url('Gustavo-Medium.eot');
+  src: url('Gustavo-Medium.eot?#iefix') format('embedded-opentype'),
+       url('Gustavo-Medium.woff2') format('woff2'),
+       url('Gustavo-Medium.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}

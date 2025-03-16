@@ -1,0 +1,39 @@
+/** Import Bootstrap functions */
+@import "~bootstrap/scss/functions";
+
+$theme-colors: (
+  primary: #1c1b1b
+);
+
+// Brand colours
+$white: #efefef;
+$black: #1c1b1b;
+
+$colours: (
+  white: $white,
+  black: $black,
+);
+
+/*
+ * Generate background and
+ * text colour classes. Same
+ * classes used in Gutenberg blocks.
+ */
+ @each $name, $colour in $colours {
+  .has-#{$name}-background-color {
+    background-color: $colour !important;
+  }
+  .has-#{$name}-color {
+    color: $colour !important;
+  }
+}
+
+// Font(s)
+$fa:           "Font Awesome 5 Pro";
+$font-primary: 'Lato', sans-serif;
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
+
+$spacer : 1rem;

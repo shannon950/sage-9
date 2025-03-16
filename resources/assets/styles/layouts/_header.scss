@@ -1,0 +1,11 @@
+header.banner {
+  z-index: 9;
+}
+
+.banner .nav li {
+  @extend .nav-item;
+}
+
+.banner .nav a {
+  @extend .nav-link;
+}

@@ -1,0 +1,60 @@
+$primary: 'Basel Grotesk';
+$secondary: 'Gustavo Regular';
+
+html,
+body {
+  font-size: 16px;
+  font-family: $primary;
+}
+
+.small,
+.has-small-font-size {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+p {
+  line-height: 1.5;
+}
+
+h6,
+.has-h-6-font-size {
+  font-size: 1.25rem;
+}
+
+h5,
+.has-h-5-font-size {
+  font-size: 1.563rem;
+}
+
+h4,
+.has-h-4-font-size {
+  font-size: 1.953rem;
+}
+
+h3,
+.has-h-3-font-size {
+  font-size: 2.441rem;
+}
+
+h2,
+.has-h-2-font-size {
+  font-size: 3.052rem;
+}
+
+h1,
+.has-h-1-font-size {
+  font-size: 3.815rem;
+}
+
+.has-display-font-size {
+  font-size: 4.786rem;
+  font-family: $secondary;
+}
+
+@for $index from 1 through 6 {
+  h#{$index},
+  .has-h-#{$index}-font-size{
+    font-family: $secondary;
+  }
+}

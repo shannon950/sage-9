@@ -1,0 +1,54 @@
+// Block layouts
+.alignwide {
+  margin-left: calc(-85vw / 2 + 100% / 2);
+  margin-right: calc(-85vw / 2 + 100% / 2);
+}
+
+.alignfull {
+  margin-left: calc(50% - 49.55vw);
+  margin-right: calc(50% - 49.55vw);
+}
+
+.alignfull > .wp-block-group__inner-container,
+.alignwide > .wp-block-group__inner-container {
+  @extend .container;
+}
+
+// Remove margins
+.wp-block-columns {
+  @extend .m-0;
+}
+
+
+// Overflows
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+// Heights
+.has-full-height {
+  height: 100vh;
+}
+
+@for $index from 1 through 100 {
+  .vh-#{$index} {
+    height: #{$index}vh;
+  }
+}
+
+// Widths
+@for $index from 1 to 100 {
+  .vw-#{$index} {
+    width: #{$index}vw;
+  }
+}
+
+// Z-indexes
+@for $index from -2 through 9999 {
+  .has-#{$index}-z-index {
+    z-index: #{$index} !important;
+  }
+}
